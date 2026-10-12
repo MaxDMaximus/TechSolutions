@@ -1,7 +1,7 @@
 .tablenav{
-    display: flex;
+    position: fixed;
     list-style: none;
-    font-size: 40px; /* Taille du texte (en pixel)*/
+    font-size: 30px; /* Taille du texte (en pixel)*/
     font-family: Arial, Helvetica, sans-serif; /*Police d'écriture*/
     font-weight: 700; /*densité du texte*/
 }
@@ -12,3 +12,6 @@ button{
 
 }
 
+a{
+    color: blue;
+}
