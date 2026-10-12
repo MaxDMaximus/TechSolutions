@@ -4,6 +4,8 @@
     font-size: 30px; /* Taille du texte (en pixel)*/
     font-family: Arial, Helvetica, sans-serif; /*Police d'écriture*/
     font-weight: 700; /*densité du texte*/
+    background-color: #84CAE7;
+    width : 100%;
 }
 
 button{
@@ -14,4 +16,8 @@ button{
 
 a{
     color: blue;
+}
+body{
+    margin: 0;
+
 }
