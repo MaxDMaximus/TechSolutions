@@ -7,7 +7,9 @@
     </head>
 
     <body>
-        <?php include "inc/menu.php"; ?>
+        <table class="tablenav">
+            <?php include "inc/menu.php"; ?>
+    </table>
         <p><a href="index.html">Revenir à la page d'accueil</a></p>
 
 
