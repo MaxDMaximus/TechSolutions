@@ -9,7 +9,7 @@
     <body>
         <table class="tablenav">  
             <tr>
-                <td><a href="index.html"><img src="images/TechSolutions.png" alt="TechSolutions"></img></a></td>
+                <td><a href="index.php"><img src="images/TechSolutions.png" alt="TechSolutions"></img></a></td>
             </tr>
         </table>
         <p><a href="index.html">Revenir à la page d'accueil</a></p>
