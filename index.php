@@ -16,7 +16,7 @@
                     <a href="Contact.php">Contact</a>
                     <a href="Connexion.php">Connexion</a>
                 </td>
-            <td><a href="index.html"><img src="images/TechSolutions.png" alt="TechSolutions"></img></a></td>
+            <td><a href="index.php"><img src="images/TechSolutions.png" alt="TechSolutions"></img></a></td>
             </tr>
             </nav>
         </table>
