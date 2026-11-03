@@ -7,11 +7,7 @@
     </head>
 
     <body>
-        <table class="tablenav">  
-            <tr>
-                <td><a href="index.php"><img src="images/TechSolutions.png" alt="TechSolutions"></img></a></td>
-            </tr>
-        </table>
+        <?php include "inc/menu.php"; ?>
         <p><a href="index.html">Revenir à la page d'accueil</a></p>
 
 
