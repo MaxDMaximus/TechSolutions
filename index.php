@@ -1,3 +1,4 @@
+<?php include "inc/infos.php"; ?>
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -28,6 +29,6 @@
 
 
 
-
+        <?php include "inc/pied.php"; ?>
     </body>
 </html>    
