@@ -43,19 +43,6 @@ $tva = 20;
         <p>TVA au taux de 20%</p>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
         <?php include "inc/pied.php"; ?>
     </body>
 </html>    
