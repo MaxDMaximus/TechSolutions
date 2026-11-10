@@ -1,3 +1,4 @@
+<?php include "inc/infos.php"; ?>
 <!DOCTYPE html>
 <html lang="fr">
     <head>
