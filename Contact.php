@@ -12,9 +12,13 @@
             <?php include "inc/menu.php"; ?>
         </table>
 
-    <h2>Nos coordonnées</h2>
+    <h2 class="slogan">Une question ? Appelez-nous</h2>
+    <h1>Nos coordonnées</h1>
     <p><strong>Téléphone :</strong> <?php echo $telephone; ?></p>
     <p><strong>Adresse :</strong> <?php echo $adresse; ?></p>
+    <h2>Nos horaires</h2>
+    <
+
 
 
 

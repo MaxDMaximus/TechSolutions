@@ -20,6 +20,10 @@ $tva = 20;
         <table class="tablenav">
             <?php include "inc/menu.php"; ?>
         </table>
+        <h1>Nos services</h1>
+        <h2 class="slogan">Tout ce dont votre entreprise à besoin</h2>
+        <h2>Ce que nous faisons :</h2>
+        <p>La maintenance des postes de travail. L'installation et le suivi des réseaux. La sauvegarde des données. L'assistance aux utilisateurs par téléphone.</p>
         <table  class="tableau">
             <tr  class="tableau">
                 <td  class="tableau">Essentiel</td>

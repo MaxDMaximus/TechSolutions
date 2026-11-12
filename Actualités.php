@@ -11,6 +11,7 @@
         <table class="tablenav">
             <?php include "inc/menu.php"; ?>
         </table>
+        <h1>Nos actualités</h1>
 
 
 
