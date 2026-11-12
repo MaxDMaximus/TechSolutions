@@ -1,3 +1,13 @@
+h1{
+    color: #123c63;
+    font-family: Georgia, serif;
+}
+
+h2{
+    color: #123c63;
+    font-family: Georgia, serif;
+}
+
 .tablenav{
     list-style: none;
     font-size: 30px; /* Taille du texte (en pixel)*/
@@ -10,8 +20,34 @@
 a{
     color: blue;
     text-decoration: none;
-}
-body{
-    margin: 0;
+}   
 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: #f4f6f8;
+
+}
+
+.pied{
+    text-align: center;
+}
+
+.slogan {
+    color: #e67e22;
+}
+
+.entete{
+    border-color: #123c63;
+    background-color: #123c63;
+}
+
+.tableau{
+    border: 2px solid #4f4f4f;
+    background-color: white;
+    gap: 0px;
+    border-collapse: collapse;
+    padding: 7px;
+    text-align: center;
 }

@@ -20,24 +20,24 @@ $tva = 20;
         <table class="tablenav">
             <?php include "inc/menu.php"; ?>
         </table>
-        <table>
-            <tr>
-                <td>Essentiel</td>
-                <td>Intervention à la demande, prix de l'heure</td>
-                <td><?php echo $essentiel; ?> euros</td>
-                <td><?php echo $essentiel * (100 + $tva) / 100; ?> euros</td>
+        <table  class="tableau">
+            <tr  class="tableau">
+                <td  class="tableau">Essentiel</td>
+                <td  class="tableau">Intervention à la demande, prix de l'heure</td>
+                <td  class="tableau"><?php echo $essentiel; ?> euros</td>
+                <td  class="tableau"><?php echo $essentiel * (100 + $tva) / 100; ?> euros</td>
             </tr>
-            <tr>
-                <td>Sérénité</td>
-                <td>Maintenance et sauvegarde, prix par mois</td>
-                <td><?php echo $serenite; ?> euros</td>
-                <td><?php echo $serenite * (100 + $tva) / 100; ?> euros</td>
+            <tr  class="tableau">
+                <td  class="tableau">Sérénité</td>
+                <td  class="tableau">Maintenance et sauvegarde, prix par mois</td>
+                <td  class="tableau"><?php echo $serenite; ?> euros</td>
+                <td  class="tableau"><?php echo $serenite * (100 + $tva) / 100; ?> euros</td>
             </tr>
-            <tr>
+            <tr  class="tableau">
                 <td>Premium</td>
-                <td>Tout compris, assistance illimitée, prix par mois</td>
-                <td><?php echo $premium; ?> euros</td>
-                <td><?php echo $premium * (100 + $tva) / 100; ?> euros</td>
+                <td  class="tableau">Tout compris, assistance illimitée, prix par mois</td>
+                <td  class="tableau"><?php echo $premium; ?> euros</td>
+                <td  class="tableau"><?php echo $premium * (100 + $tva) / 100; ?> euros</td>
             </tr>
         </table>
         <p>TVA au taux de 20%</p>
