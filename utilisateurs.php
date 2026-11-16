@@ -17,7 +17,9 @@ $utilisateurs = $requete->fetchAll();
         <table class="tablenav">
             <?php include "inc/menu.php"; ?>
         </table>
-    <h2>Les comptes du personnel</h2>
+    <h1>Gestions des comptes utilisateurs</h1>
+    <h2 class="slogan">Les comptes du persosnnel</h2>
+    <p>Nombre de compte : </p>
     <table>
       <tr>
         <th>Prénom</th>

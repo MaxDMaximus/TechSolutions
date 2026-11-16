@@ -7,6 +7,7 @@
             <a href="Connexion.php">Connexion</a>
             <a href="Entreprise.php">Entreprise</a>
             <a href="Services.php">Services</a>
+            <a href="Utilisateurs.php">Utilisateurs</a>
         </td>
         <td class="tdmenu"><a href="index.php"><img src="images/TechSolutions.png" alt="TechSolutions"></img></a></td>
     </tr>
