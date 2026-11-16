@@ -17,6 +17,10 @@ h2{
     width : 100%;
 }
 
+.tdmenu{
+    width: 40px;
+}
+
 a{
     color: blue;
     text-decoration: none;
@@ -42,7 +46,7 @@ body {
     font-style: italic;
 }
 
-.entete{
+th{
     border: 2px solid #b9b0b0;
     background-color: #123c63;
     border-collapse: collapse;
@@ -51,7 +55,15 @@ body {
     color: white;
 }
 
-.tableau{
+table:not(.tablenav){
+    border: 2px solid #b9b0b0;
+    background-color: white;
+    border-collapse: collapse;
+    padding: 7px;
+    text-align: center;
+}
+
+td:not(.tdmenu){
     border: 2px solid #b9b0b0;
     background-color: white;
     border-collapse: collapse;

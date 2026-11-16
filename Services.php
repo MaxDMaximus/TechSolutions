@@ -24,24 +24,25 @@ $tva = 20;
         <h2 class="slogan">Tout ce dont votre entreprise à besoin</h2>
         <h2>Ce que nous faisons :</h2>
         <p>La maintenance des postes de travail. L'installation et le suivi des réseaux. La sauvegarde des données. L'assistance aux utilisateurs par téléphone.</p>
-        <table  class="tableau">
-            <tr  class="tableau">
-                <td  class="tableau">Essentiel</td>
-                <td  class="tableau">Intervention à la demande, prix de l'heure</td>
-                <td  class="tableau"><?php echo $essentiel; ?> euros</td>
-                <td  class="tableau"><?php echo $essentiel * (100 + $tva) / 100; ?> euros</td>
+        <h2>Nos formules</h2>
+        <table>
+            <tr>
+                <th>Essentiel</th>
+                <td>Intervention à la demande, prix de l'heure</td>
+                <td><?php echo $essentiel; ?> euros</td>
+                <td><?php echo $essentiel * (100 + $tva) / 100; ?> euros</td>
             </tr>
-            <tr  class="tableau">
-                <td  class="tableau">Sérénité</td>
-                <td  class="tableau">Maintenance et sauvegarde, prix par mois</td>
-                <td  class="tableau"><?php echo $serenite; ?> euros</td>
-                <td  class="tableau"><?php echo $serenite * (100 + $tva) / 100; ?> euros</td>
+            <tr>
+                <th>Sérénité</th>
+                <td>Maintenance et sauvegarde, prix par mois</td>
+                <td><?php echo $serenite; ?> euros</td>
+                <td><?php echo $serenite * (100 + $tva) / 100; ?> euros</td>
             </tr>
-            <tr  class="tableau">
-                <td>Premium</td>
-                <td  class="tableau">Tout compris, assistance illimitée, prix par mois</td>
-                <td  class="tableau"><?php echo $premium; ?> euros</td>
-                <td  class="tableau"><?php echo $premium * (100 + $tva) / 100; ?> euros</td>
+            <tr>
+                <th>Premium</th>
+                <td>Tout compris, assistance illimitée, prix par mois</td>
+                <td><?php echo $premium; ?> euros</td>
+                <td><?php echo $premium * (100 + $tva) / 100; ?> euros</td>
             </tr>
         </table>
         <p>TVA au taux de 20%</p>
