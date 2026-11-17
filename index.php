@@ -21,7 +21,7 @@ maintenance, sauvegarde et assistance.</p>
             <li>Pourquoi nous choisir ?</li>
             <li>Une réponse rapide en cas de panne</li>
             <li>Des tarifs clairs, sans surprise</li>
-
+        </ul>
 
 
 

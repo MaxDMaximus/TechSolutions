@@ -1,4 +1,10 @@
-<?php include "inc/infos.php"; ?>
+<?php
+include "inc/infos.php";
+require "inc/bdd.php";
+
+$requete = $pdo->query("SELECT prenom, nom, service, role FROM utilisateurs ORDER BY nom");
+$equipe = $requete->fetchAll();
+?>
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -16,7 +22,13 @@
         <h2>Notre histoire</h2>
         <p>TechSolutions a été créée à Brive-la-Gaillarde par deux techniciens. Aujourd'hui, l'entreprise compte une trentaine de salariés et s'occupe de plus de cent clients.</p>
         <h2>Notre équipe</h2>
-        <p>Martin Durand, responsable informatique. Julie Moreau, accueil et planning. Karim Benali, comptabilité.</p>
+        <ul>
+            <?php foreach ($equipe as $equipe) { ?>
+                <li>
+                    <?= htmlspecialchars($equipe['prenom'] . ' ' . $equipe['nom']) ?>
+                </li>
+            <?php } ?>
+        </ul>
         
 
 

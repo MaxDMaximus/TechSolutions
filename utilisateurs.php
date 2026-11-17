@@ -19,7 +19,7 @@ $utilisateurs = $requete->fetchAll();
         </table>
     <h1>Gestions des comptes utilisateurs</h1>
     <h2 class="slogan">Les comptes du persosnnel</h2>
-    <p>Nombre de compte : </p>
+    <p>Nombre de compte : <?php echo count($utilisateurs); ?> </p>
     <table>
       <tr>
         <th>Prénom</th>

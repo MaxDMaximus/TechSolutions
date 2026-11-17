@@ -17,8 +17,19 @@ h2{
     width : 100%;
 }
 
-.tdmenu{
-    width: 40px;
+.tdmenugauche{
+    width: 50%;
+    text-align: center;
+}
+
+.tdmenulogo{
+    width: 25%;
+    text-align: left;
+}
+
+.tdmenudroite{
+    width: 25%;
+    text-align: center;
 }
 
 a{
@@ -39,7 +50,6 @@ body {
     border-top: 2px solid orange;
     padding: 10px;
     margin-top: 40px;
-    
 }
 .slogan {
     color: #e67e22;
@@ -63,7 +73,7 @@ table:not(.tablenav){
     text-align: center;
 }
 
-td:not(.tdmenu){
+td:not(.tdmenudroite):not(.tdmenulogo):not(.tdmenugauche){
     border: 2px solid #b9b0b0;
     background-color: white;
     border-collapse: collapse;
