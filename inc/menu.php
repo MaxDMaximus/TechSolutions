@@ -1,3 +1,4 @@
+<table class="tablenav">
 <nav>  
     <tr>
         <td class="tdmenulogo"><a href="index.php"><img src="images/TechSolutions.png" alt="TechSolutions"></img></a></td>
@@ -8,7 +9,8 @@
             <a href="Services.php">Services</a>
             <a href="Utilisateurs.php">Utilisateurs</a>
         </td>
-        <td class="tdmenudroite"><a href="Connexion.php">Connexion</a></td>
+        <td class="tdconnexion"><a href="Connexion.php">Espace salariés</a></td>
 
     </tr>
 </nav>
+</table>

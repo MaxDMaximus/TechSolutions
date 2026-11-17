@@ -8,9 +8,8 @@
     </head>
 
     <body>
-        <table class="tablenav">
             <?php include "inc/menu.php"; ?>
-        </table>
+  
         <h1>TechSolutions</h1>
         <h2 class="slogan">Votre informatique entre de bonnes mains</h2>
         <h2>Bienvenue</h2>

@@ -14,9 +14,8 @@ $equipe = $requete->fetchAll();
     </head>
 
     <body>
-        <table class="tablenav">
-            <?php include "inc/menu.php"; ?>
-        </table>
+        <?php include "inc/menu.php"; ?>
+
         <h2 class="slogan">Une équipe à votre service depuis <?php echo $creation ; ?></h2>
         <h2>Soit <?php echo $age ; ?> ans d'expérience au service des entreprises de la région.</h2>
         <h2>Notre histoire</h2>

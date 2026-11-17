@@ -17,9 +17,8 @@ $tva = 20;
     </head>
 
     <body>
-        <table class="tablenav">
             <?php include "inc/menu.php"; ?>
-        </table>
+      
         <h1>Nos services</h1>
         <h2 class="slogan">Tout ce dont votre entreprise à besoin</h2>
         <h2>Ce que nous faisons :</h2>

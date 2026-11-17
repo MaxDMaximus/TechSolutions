@@ -20,6 +20,7 @@ h2{
 .tdmenugauche{
     width: 50%;
     text-align: center;
+    
 }
 
 .tdmenulogo{
@@ -27,7 +28,7 @@ h2{
     text-align: left;
 }
 
-.tdmenudroite{
+.tdconnexion{
     width: 25%;
     text-align: center;
 }
@@ -73,7 +74,7 @@ table:not(.tablenav){
     text-align: center;
 }
 
-td:not(.tdmenudroite):not(.tdmenulogo):not(.tdmenugauche){
+td:not(.tdconnexion):not(.tdmenulogo):not(.tdmenugauche){
     border: 2px solid #b9b0b0;
     background-color: white;
     border-collapse: collapse;

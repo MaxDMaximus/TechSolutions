@@ -14,9 +14,8 @@ $utilisateurs = $requete->fetchAll();
     </head>
 
     <body>
-        <table class="tablenav">
             <?php include "inc/menu.php"; ?>
-        </table>
+
     <h1>Gestions des comptes utilisateurs</h1>
     <h2 class="slogan">Les comptes du persosnnel</h2>
     <p>Nombre de compte : <?php echo count($utilisateurs); ?> </p>
