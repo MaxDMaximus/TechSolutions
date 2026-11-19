@@ -27,7 +27,7 @@
                 <button class="buttonconnect" type="submit">Se connecter</button>
             </p>
         </form>
-        <p><a href="index.html">Revenir à la page d'accueil</a></p>
+        <p><a href="index.php">Revenir à la page d'accueil</a></p>
 
 
 

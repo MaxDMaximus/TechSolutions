@@ -1,4 +1,5 @@
 <?php
+session_start();
 include "inc/infos.php";
 require "inc/bdd.php";
 
@@ -10,7 +11,20 @@ $motdepasse = $_POST["motdepasse"];
 $requete = $pdo->prepare("SELECT * FROM utilisateurs WHERE identifiant = ?");
 $requete->execute([$identifiant]);
 $utilisateur = $requete->fetch();
+
+// 3. Si le compte existe et que le mot de passe est le bon : on retient la personne et on l'envoie dans son espace
+if ($utilisateur && password_verify($motdepasse, $utilisateur["mot_de_passe"])) {
+    $_SESSION["id"] = $utilisateur["id"];
+    $_SESSION["prenom"] = $utilisateur["prenom"];
+    $_SESSION["nom"] = $utilisateur["nom"];
+    $_SESSION["service"] = $utilisateur["service"];
+    $_SESSION["role"] = $utilisateur["role"];
+    header("Location: espace.php");
+    exit;
+}
 ?>
+
+
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -22,14 +36,8 @@ $utilisateur = $requete->fetch();
     <?php include "inc/menu.php"; ?>
 
     <h1>Espace salariés</h1>
-
-    <?php if ($utilisateur && password_verify($motdepasse, $utilisateur["mot_de_passe"])) { ?>
-      <p class="slogan">Bienvenue <?php echo $utilisateur["prenom"] . " " . $utilisateur["nom"]; ?> !</p>
-      <p>Vous êtes connecté au service <?php echo $utilisateur["service"]; ?>.</p>
-    <?php } else { ?>
-      <strong class="erreur">Identifiant ou mot de passe incorrect.</strong>
-      <p><a href="connexion.php">Réessayer</a></p>
-    <?php } ?>
+    <p class="erreur">Identifiant ou mot de passe incorrect.</p>
+    <p><a href="connexion.php">Réessayer</a></p>
 
     <?php include "inc/pied.php"; ?>
   </body>

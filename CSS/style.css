@@ -109,3 +109,8 @@ td:not(.tdconnexion):not(.tdmenulogo):not(.tdmenugauche){
     margin-left: 20px;
     border: none;
 }
+
+.bouton-supprimer {
+  background-color: #b03a2e;
+  padding: 5px 12px;
+}

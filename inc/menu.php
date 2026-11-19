@@ -7,7 +7,6 @@
                 <a href="Contact.php">Contact</a>
                 <a href="Entreprise.php">Entreprise</a>
                 <a href="Services.php">Services</a>
-                <a href="Utilisateurs.php">Utilisateurs</a>
             </td>
             <td class="tdconnexion"><a href="Connexion.php">Espace salariés</a></td>
         </tr>
