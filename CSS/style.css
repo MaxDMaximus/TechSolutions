@@ -39,7 +39,7 @@ a{
 }   
 
 body {
-    margin: 0;
+    margin: 20px;
     font-family: Arial, sans-serif;
     color: #333333;
     background-color: #f4f6f8;
@@ -80,4 +80,32 @@ td:not(.tdconnexion):not(.tdmenulogo):not(.tdmenugauche){
     border-collapse: collapse;
     padding: 7px;
     text-align: center;
+}
+
+.erreur{
+    color: red;
+}
+
+.formulaire{
+    background-color: white;
+    border: 2px solid #c5ccd3;
+    padding-top: 10px 20px;
+    max-width: 400px;
+    margin-left: 20px;
+    
+}
+
+.champconnexion{
+    width: 300px;
+    border: 2px solid #c5ccd3;
+    padding: 8px;
+    margin-left: 20px;
+}
+
+.buttonconnect{
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 20px;
+    border: none;
 }

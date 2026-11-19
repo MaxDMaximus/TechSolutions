@@ -23,10 +23,12 @@ $utilisateur = $requete->fetch();
 
     <h1>Espace salariés</h1>
 
-    <?php if ($utilisateur) { ?>
-      <p>Compte trouvé : <?php echo $utilisateur["prenom"] . " " . $utilisateur["nom"]; ?></p>
+    <?php if ($utilisateur && password_verify($motdepasse, $utilisateur["mot_de_passe"])) { ?>
+      <p class="slogan">Bienvenue <?php echo $utilisateur["prenom"] . " " . $utilisateur["nom"]; ?> !</p>
+      <p>Vous êtes connecté au service <?php echo $utilisateur["service"]; ?>.</p>
     <?php } else { ?>
-      <p class="erreur">Aucun compte n'a cet identifiant.</p>
+      <strong class="erreur">Identifiant ou mot de passe incorrect.</strong>
+      <p><a href="connexion.php">Réessayer</a></p>
     <?php } ?>
 
     <?php include "inc/pied.php"; ?>
