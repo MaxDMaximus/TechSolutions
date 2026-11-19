@@ -31,6 +31,7 @@ $utilisateurs = $requete->fetchAll();
     <h1>Gestions des comptes utilisateurs</h1>
     <h2 class="slogan">Les comptes du persosnnel</h2>
     <p>Nombre de compte : <?php echo count($utilisateurs); ?> </p>
+    <a href="ajouter.php">Ajouter un compte</a>
     <table>
       <tr>
         <th>Prénom</th>
