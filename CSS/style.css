@@ -15,22 +15,25 @@ h2{
     font-weight: 700; /*densité du texte*/
     background-color: #84CAE7;
     width : 100%;
+    align-items: center;
 }
 
 .tdmenugauche{
-    width: 50%;
     text-align: center;
-    
+    border-left: 2px solid white;  
+    padding: -15px -15px;  
 }
 
 .tdmenulogo{
     width: 25%;
     text-align: left;
+
 }
 
 .tdconnexion{
     width: 25%;
     text-align: center;
+    border-left: 2px solid white;    
 }
 
 a{
