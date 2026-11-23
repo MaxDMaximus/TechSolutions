@@ -1,16 +1,6 @@
 <?php
-session_start();
 
-// Page réservée à l'administrateur
-if (!isset($_SESSION["id"])) {
-    header("Location: connexion.php");
-    exit;
-}
-if ($_SESSION["role"] != "admin") {
-    header("Location: espace.php");
-    exit;
-}
-
+require "inc/verif-admin.php";
 include "inc/infos.php";
 ?>
 <!DOCTYPE html>
@@ -28,34 +18,34 @@ include "inc/infos.php";
 
     <form class="formulaire" action="creer.php" method="post">
       <p>
-        <label for="prenom">Prénom</label><br>
-        <input type="text" id="prenom" name="prenom" required>
+        <label style="margin-left: 20px;" for="prenom">Prénom</label><br>
+        <input class="champconnexion" type="text" id="prenom" name="prenom" required>
       </p>
       <p>
-        <label for="nom">Nom</label><br>
-        <input type="text" id="nom" name="nom" required>
+        <label style="margin-left: 20px;" for="nom">Nom</label><br>
+        <input class="champconnexion" type="text" id="nom" name="nom" required>
       </p>
       <p>
-        <label for="service">Service</label><br>
-        <input type="text" id="service" name="service" required>
+        <label style="margin-left: 20px;" for="service">Service</label><br>
+        <input class="champconnexion" type="text" id="service" name="service" required>
       </p>
       <p>
-        <label for="identifiant">Identifiant</label><br>
-        <input type="text" id="identifiant" name="identifiant" required>
+        <label style="margin-left: 20px;" for="identifiant">Identifiant</label><br>
+        <input class="champconnexion" type="text" id="identifiant" name="identifiant" required>
       </p>
       <p>
-        <label for="motdepasse">Mot de passe de départ</label><br>
-        <input type="password" id="motdepasse" name="motdepasse" required>
+        <label style="margin-left: 20px;" for="motdepasse">Mot de passe de départ</label><br>
+        <input class="champconnexion" type="password" id="motdepasse" name="motdepasse" required>
       </p>
       <p>
-        <label for="role">Rôle</label><br>
-        <select id="role" name="role">
+        <label style="margin-left: 20px;" for="role">Rôle</label><br>
+        <select style="margin-left: 20px;" id="role" name="role">
           <option value="salarie">Salarié</option>
           <option value="admin">Administrateur</option>
         </select>
       </p>
       <p>
-        <button type="submit">Créer le compte</button>
+        <button style="margin-left: 20px;" type="submit">Créer le compte</button>
       </p>
     </form>
 

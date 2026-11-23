@@ -8,8 +8,15 @@
     </head>
 
     <body>
-        <?php include "inc/menu.php"; ?>
 
+        <?php
+        session_start();
+        include "inc/menu.php"; ?>
+        <?php 
+        if ($_SESSION["id"]) {
+            header("Location: Espace.php");
+        } ?>
+        
         <h1>Espace salariés</h1>
 
         <h2 class="slogan">Connectez-vous avec vos identifiants</h2>

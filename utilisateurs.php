@@ -1,16 +1,6 @@
 <?php
-session_start();
 
-// Page réservée aux personnes connectées...
-if (!isset($_SESSION["id"])) {
-    header("Location: connexion.php");
-    exit;
-}
-// ... et, parmi elles, à l'administrateur
-if ($_SESSION["role"] != "admin") {
-    header("Location: espace.php");
-    exit;
-}
+require "inc/verif-admin.php";
 include "inc/infos.php";
 require "inc/bdd.php";
 
@@ -26,13 +16,13 @@ $utilisateurs = $requete->fetchAll();
     </head>
 
     <body>
-            <?php include "inc/menu.php"; ?>
+      <?php include "inc/menu.php"; ?>
 
     <h1>Gestions des comptes utilisateurs</h1>
     <h2 class="slogan">Les comptes du persosnnel</h2>
     <p>Nombre de compte : <?php echo count($utilisateurs); ?> </p>
     <a href="ajouter.php">Ajouter un compte</a>
-    <table>
+    <table style="margin: 20px;">
       <tr>
         <th>Prénom</th>
         <th>Nom</th>

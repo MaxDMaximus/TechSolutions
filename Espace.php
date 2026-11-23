@@ -1,12 +1,7 @@
 <?php
 session_start();
 
-// Page réservée aux personnes connectées
-if (!isset($_SESSION["id"])) {
-    header("Location: connexion.php");
-    exit;
-}
-
+require "inc/verif-connect.php";
 include "inc/infos.php";
 ?>
 <!DOCTYPE html>
