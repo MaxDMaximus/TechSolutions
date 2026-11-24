@@ -42,6 +42,7 @@ if (!$existant) {
     <meta charset="utf-8">
     <title>TechSolutions : ajouter un compte</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="images/TechSolutions.png" href="Images/TechSolutions.png">
   </head>
   <body>
     <?php include "inc/menu.php"; ?>

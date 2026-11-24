@@ -10,6 +10,7 @@ include "inc/infos.php";
     <meta charset="utf-8">
     <title>TechSolutions : mon espace</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="images/TechSolutions.png" href="Images/TechSolutions.png">
   </head>
   <body>
     <?php include "inc/menu.php"; ?>

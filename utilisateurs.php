@@ -13,6 +13,7 @@ $utilisateurs = $requete->fetchAll();
         <meta charset="UTF-8">
         <title>Accueil</title>
         <link rel="stylesheet" href="CSS/style.css">
+        <link rel="icon" type="images/TechSolutions.png" href="Images/TechSolutions.png">
     </head>
 
     <body>
