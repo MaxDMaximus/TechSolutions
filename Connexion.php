@@ -1,4 +1,10 @@
-<?php include "inc/infos.php"; ?>
+<?php
+include "inc/infos.php";
+if (isset($_SESSION["id"])) {
+    header("Location: Espace.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -10,13 +16,7 @@
 
     <body>
 
-        <?php
-        session_start();
-        include "inc/menu.php"; ?>
-        <?php 
-        if ($_SESSION["id"]) {
-            header("Location: Espace.php");
-        } ?>
+        <?php include "inc/menu.php"; ?>
         
         <h1>Espace salariés</h1>
 

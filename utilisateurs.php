@@ -22,7 +22,7 @@ $utilisateurs = $requete->fetchAll();
     <h1>Gestions des comptes utilisateurs</h1>
     <h2 class="slogan">Les comptes du persosnnel</h2>
     <p>Nombre de compte : <?php echo count($utilisateurs); ?> </p>
-    <a href="ajouter.php">Ajouter un compte</a>
+    <a href="ajouter.php" class="buttonconnect">Ajouter un compte</a>
     <table style="margin: 20px;">
       <tr>
         <th>Prénom</th>
@@ -46,7 +46,7 @@ $utilisateurs = $requete->fetchAll();
       </tr>
       <?php } ?>
     </table>
-    <a href="espace.php">Retourner à mon espace</a>
+    <a href="espace.php" class="buttonconnect">Retourner à mon espace</a>
 
 
         <?php include "inc/pied.php"; ?>

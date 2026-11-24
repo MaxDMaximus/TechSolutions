@@ -21,9 +21,8 @@ include "inc/infos.php";
     <p>Service : <?php echo $_SESSION["service"]; ?></p>
     <p>Rôle : <?php echo $_SESSION["role"]; ?></p>
     <?php if ($_SESSION["role"] == "admin") { ?>
-      <p><a href="utilisateurs.php">Gérer les utilisateurs</a></p>
+      <a href="utilisateurs.php" class="buttonconnect">Gérer les utilisateurs</a>
     <?php } ?>
-    <p><a href="deconnexion.php">Se déconnecter</a></p>
     <?php include "inc/pied.php"; ?>
   </body>
 </html>

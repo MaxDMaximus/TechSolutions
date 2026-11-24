@@ -1,4 +1,8 @@
 <?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
 // Les coordonnées de l'entreprise, écrites une seule fois
 $entreprise = "TechSolutions";
 $ville = "Brive-la-Gaillarde";
