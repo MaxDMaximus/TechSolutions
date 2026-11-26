@@ -31,7 +31,7 @@ if ($utilisateur && password_verify($motdepasse, $utilisateur["mot_de_passe"])) 
     <meta charset="utf-8">
     <title>TechSolutions : espace salariés</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="images/TechSolutions.png" href="Images/TechSolutions.png">xa
+    <link rel="icon" type="images/TechSolutions.png" href="Images/TechSolutions.png">
   </head>
   <body>
     <?php include "inc/menu.php"; ?>
