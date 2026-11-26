@@ -81,7 +81,7 @@ table:not(.tablenav){
     text-align: center;
 }
 
-td:not(.tdconnexion):not(.tdmenulogo):not(.tdmenugauche){
+td:not(.tdconnexion):not(.tddeconnexion):not(.tdmenulogo):not(.tdmenugauche){
     border: 2px solid #b9b0b0;
     background-color: white;
     border-collapse: collapse;
@@ -120,4 +120,8 @@ td:not(.tdconnexion):not(.tdmenulogo):not(.tdmenugauche){
 .bouton-supprimer {
   background-color: #b03a2e;
   padding: 5px 12px;
+}
+
+.logodeconnexion{
+    width: 20%
 }

@@ -23,21 +23,6 @@ maintenance, sauvegarde et assistance.</p>
             <li>Des tarifs clairs, sans surprise</li>
         </ul>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <?php include "inc/pied.php"; ?>
     </body>
 </html>    

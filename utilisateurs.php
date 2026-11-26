@@ -21,7 +21,7 @@ $utilisateurs = $requete->fetchAll();
 
     <h1>Gestions des comptes utilisateurs</h1>
     <h2 class="slogan">Les comptes du persosnnel</h2>
-    <p>Nombre de compte : <?php echo count($utilisateurs); ?> </p>
+    <p>Nombre de compte : <?php echo count($utilisateurs); ?></p>
     <a href="ajouter.php" class="buttonconnect">Ajouter un compte</a>
     <table style="margin: 20px;">
       <tr>
