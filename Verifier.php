@@ -37,8 +37,8 @@ if ($utilisateur && password_verify($motdepasse, $utilisateur["mot_de_passe"])) 
     <?php include "inc/menu.php"; ?>
 
     <h1>Espace salariés</h1>
-    <p class="erreur">Identifiant ou mot de passe incorrect.</p>
-    <p><a href="connexion.php">Réessayer</a></p>
+    <h2 class="erreur">Identifiant ou mot de passe incorrect.</h2>
+    <a href="connexion.php" class="buttonconnect">Réessayer</a>
 
     <?php include "inc/pied.php"; ?>
   </body>

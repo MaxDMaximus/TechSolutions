@@ -16,7 +16,7 @@ include "inc/infos.php";
     <?php include "inc/menu.php"; ?>
 
     <h1>Mon espace</h1>
-    <p class="slogan">Bonjour <?php echo $_SESSION["prenom"] . " " . $_SESSION["nom"]; ?> !</p>
+    <h2 class="slogan">Bonjour <?php echo $_SESSION["prenom"] . " " . $_SESSION["nom"]; ?> !</h2>
 
     <p>Service : <?php echo $_SESSION["service"]; ?></p>
     <p>Rôle : <?php echo $_SESSION["role"]; ?></p>

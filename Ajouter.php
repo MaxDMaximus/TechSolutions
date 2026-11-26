@@ -16,7 +16,7 @@ include "inc/infos.php";
     <?php include "inc/menu.php"; ?>
 
     <h1>Ajouter un compte</h1>
-    <p class="slogan">Un nouveau salarié rejoint l'entreprise</p>
+    <h2 class="slogan">Un nouveau salarié rejoint l'entreprise</h2>
 
     <form class="formulaire" action="creer.php" method="post">
       <p>
